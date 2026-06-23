@@ -6,7 +6,7 @@ cvs_batch_data_extraction_tool
 
 ==============================
 
-软件功能
+## ***软件功能***
 
 本工具用于批量提取多个CSV文件中的指定字段（列），并自动汇总生成Excel或CSV结果文件。
 
@@ -41,10 +41,17 @@ cvs_batch_data_extraction_tool
 
 ==============================
 
-Version Information
+## ***Version Information***
 
 cvs_batch_data_extraction_tool_v1.6.0
 
 Author：lyshao
 
 Last Updated：2026.06.22
+
+
+```python  
+conda install pyinstaller
+pyinstaller --onefile --windowed you python file path
+```
+
